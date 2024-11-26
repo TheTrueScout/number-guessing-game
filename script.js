@@ -59,6 +59,7 @@ playAgain.addEventListener('click', () => {
   document.body.style.backgroundColor = '#1d1d1d'
   scores.score = 20
   score.innerHTML = `Score: ${scores.score}`;
+  higherLower.innerHTML = 'Start'
   playerGuess.value = ''
 })
 
